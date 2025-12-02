@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phones - MyShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🛍 MyShop</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="phones.html">Phones</a>
+        <a href="laptops.html">Laptops</a>
+        <a href="accessories.html">Accessories</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+</header>
+
+<section class="products">
+    <div class="product-card">
+        <h2>iPhone 15</h2>
+        <img src="phone1.png" width="100">
+        <p>$999</p>
+        <button class="btn" onclick="addToCart('iPhone 15', 999)">Add to cart</button>
+    </div>
+
+    <div class="product-card">
+        <h2>Samsung S23</h2>
+        <img src="phone2.png" width="100">
+        <p>$750</p>
+        <button class="btn" onclick="addToCart('Samsung S23', 750)">Add to cart</button>
+    </div>
+
+    <div class="product-card">
+        <h2>Google Pixel 8</h2>
+        <img src="phone3.png" width="100">
+        <p>$690</p>
+        <button class="btn" onclick="addToCart('Google Pixel 8', 690)">Add to cart</button>
+    </div>
+</section>
+
+<script src="script1.js"></script>
